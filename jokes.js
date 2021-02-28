@@ -24,7 +24,7 @@ const addJoke = async () => {
     newRow.append(newP);
     jokeList.append(newRow);
     numberJokes += 1;
-    if (numberJokes > 15) {
+    if (numberJokes > 12) {
         jokeLists.childNodes[1].remove();
     }
 }
