@@ -1,0 +1,21 @@
+body {
+    background-color: #e07a5f;
+    display:block;
+    height: 50vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+button{
+    padding: 1em 2em; 
+    background-color: #3d405b;
+    border-radius: 8px;
+}
+
+.joke{
+    background-color: #f4f1de;
+}
+
+.joke:hover{
+    background-color: #f2cc8f;
+    transition: 250ms;
+}
