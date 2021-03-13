@@ -15,6 +15,7 @@
     <!-- Jokes CSS-->
     <link rel="stylesheet" href="jokes.css">
     <title>Jokes Generator</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 
@@ -22,8 +23,12 @@
 
 <body>
     <div class="container">
+        <div class="row justify-content-center mt-5">
+            <button type="button" class="btn btn-outline-warning btn-lg">Hit me for jokes!</button>
+        </div>
         <div class="row justify-content-center my-5">
-            <button type="button" class="btn btn-warning">Hit me for jokes!</button>
+            <a href="https://pangpangguy.github.io/jokes-teller/" class="jokesTeller">Or click here to hear a joke from
+                a cute robot</a>
         </div>
     </div>
 
@@ -40,7 +45,10 @@
     </footer>
 
     <script src="jokes.js"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

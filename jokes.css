@@ -1,14 +1,12 @@
 body {
-    background-color: #e07a5f;
+    background-color: #d16d51;
     display:block;
     height: 50vh;
     font-family: 'Ubuntu', sans-serif;
 }
 
 button{
-    padding: 1em 2em; 
-    background-color: #3d405b;
-    border-radius: 8px;
+    color:white;
 }
 
 .joke{
@@ -17,5 +15,15 @@ button{
 
 .joke:hover{
     background-color: #f2cc8f;
-    transition: 250ms;
 }
+
+.jokesTeller:hover{
+    text-decoration: none;
+}
+
+.newest{
+    background-color: #f3e79a;
+
+}
+
+
